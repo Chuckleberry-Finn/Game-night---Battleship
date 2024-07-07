@@ -1,0 +1,5 @@
+name=Game Night - Battleship
+id=Gamenight_Battleship
+description=This is an example mod by Authentic Peach
+poster=poster.png
+require=gamenight
