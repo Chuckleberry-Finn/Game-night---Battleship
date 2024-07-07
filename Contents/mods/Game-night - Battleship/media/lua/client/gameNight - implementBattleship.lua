@@ -80,7 +80,7 @@ function gamePieceAndBoardHandler.turnShip(gamePiece, player)
     gamePieceAndBoardHandler.pickupAndPlaceGamePiece(player, gamePiece, {gamePieceAndBoardHandler.setModDataValue, gamePiece, "gameNight_rotation", state})
 end
 
-
+--[[
 -- Battleship game logic
 local battleshipGame = {}
 battleshipGame.gridSize = 10
@@ -196,3 +196,4 @@ battleshipGame.shoot("player1", battleshipGame.playerBoards.player2, 3, 3) -- Pl
 
 -- End the game (clear the board)
 battleshipGame.endGame()
+--]]
