@@ -1,7 +1,5 @@
-module GameNight_BattleShip {
-  imports {
-      Base
-  }
+module Base
+{
     item BattleShip_Box_Sealed
     {
         DisplayCategory = GameBox,		

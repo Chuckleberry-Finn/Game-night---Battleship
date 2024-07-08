@@ -19,42 +19,42 @@ local battleshipItems = {
 
 -- Register game pieces
 gamePieceAndBoardHandler.registerTypes({
-	"GameNight_BattleShip.BattleShip_GameStand_Open",
-    "GameNight_BattleShip.BattleShip_Peg_Red", "GameNight_BattleShip.BattleShip_Peg_White",
-    "GameNight_BattleShip.BattleShip_Ship_Battleship", "GameNight_BattleShip.BattleShip_Ship_Carrier",
-    "GameNight_BattleShip.BattleShip_Ship_Destroyer", "GameNight_BattleShip.BattleShip_Ship_Submarine",
-    "GameNight_BattleShip.BattleShip_Ship_PatrolBoat"
+	"Base.BattleShip_GameStand_Open",
+    "Base.BattleShip_Peg_Red", "Base.BattleShip_Peg_White",
+    "Base.BattleShip_Ship_Battleship", "Base.BattleShip_Ship_Carrier",
+    "Base.BattleShip_Ship_Destroyer", "Base.BattleShip_Ship_Submarine",
+    "Base.BattleShip_Ship_PatrolBoat"
 })
 
 -- Register special properties for each item using custom textures
-gamePieceAndBoardHandler.registerSpecial("GameNight_BattleShip.BattleShip_GameStand_Open", { actions = { lock=true }, category = "GameBoard", textureSize = {720,965},})
-gamePieceAndBoardHandler.registerSpecial("GameNight_BattleShip.BattleShip_Peg_Red", {
+gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_GameStand_Open", { actions = { lock=true }, category = "GameBoard", textureSize = {720,965},})
+gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_Peg_Red", {
 	actions = { lock=true }, 
     noRotate = true,
 })
-gamePieceAndBoardHandler.registerSpecial("GameNight_BattleShip.BattleShip_Peg_White", {
+gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_Peg_White", {
 	shiftAction = "examine",
 	actions = {lock=true, examine=true},
 
 })
-gamePieceAndBoardHandler.registerSpecial("GameNight_BattleShip.BattleShip_Ship_Battleship", {
+gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_Ship_Battleship", {
 	shiftAction = "examine", actions = {turnShip=true, lock=true, examine=true},
 
 })
-gamePieceAndBoardHandler.registerSpecial("GameNight_BattleShip.BattleShip_Ship_Carrier", {
+gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_Ship_Carrier", {
     --altState="Domino_Flipped",
 	shiftAction = "examine", actions = {turnShip=true, lock=true, examine=true},
 
 })
-gamePieceAndBoardHandler.registerSpecial("GameNight_BattleShip.BattleShip_Ship_Destroyer", {
+gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_Ship_Destroyer", {
 	shiftAction = "examine", actions = {turnShip=true, lock=true, examine=true},
 
 })
-gamePieceAndBoardHandler.registerSpecial("GameNight_BattleShip.BattleShip_Ship_Submarine", {
+gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_Ship_Submarine", {
 	shiftAction = "examine", actions = {turnShip=true, lock=true, examine=true},
 
 })
-gamePieceAndBoardHandler.registerSpecial("GameNight_BattleShip.BattleShip_Ship_PatrolBoat", {
+gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_Ship_PatrolBoat", {
 	shiftAction = "examine", actions = {turnShip=true, lock=true, examine=true},
 
 })
@@ -172,14 +172,14 @@ function battleshipGame.endGame()
 end
 
 -- Register the game board with the handlers
-gamePieceAndBoardHandler.registerSpecial("GameNight_BattleShip.BattleShipBoard", {
+gamePieceAndBoardHandler.registerSpecial("Base.BattleShipBoard", {
     category = "GameBoard",
     texture = "UI_Gameboard.png",
     textureSize = {500, 500},
     actions = { lock = true }
 })
 
-gamePieceAndBoardHandler.registerSpecial("GameNight_BattleShip.BattleShipPiece", {
+gamePieceAndBoardHandler.registerSpecial("Base.BattleShipPiece", {
     alternateStackRendering = { func = "DrawTextureCardFace", depth = 5 }
 })
 
