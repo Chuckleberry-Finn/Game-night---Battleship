@@ -6,7 +6,7 @@ gameNightDistro.proceduralDistGameNight.itemsToAdd["BattleShip_Box"] = {}
 gameNightDistro.gameNightBoxes["BattleShip_Box"] = {
     rolls = 1,
     items = {
-        "BattleShip_GameStand_Closed", 9999, "BattleShip_GameStand_Open", 9999
+        "BattleShip_GameStand_Closed", 9999, "BattleShip_GameStand_Closed", 9999
     },
     junk = { rolls = 1, items = {} }, fillRand = 0,
 }
