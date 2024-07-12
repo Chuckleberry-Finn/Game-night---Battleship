@@ -2,27 +2,19 @@ module Base
 {
     recipe Unseal Box 
 	{ 
-		BattleShip_Box_Sealed, 
+		BattleShip_Box_sealed,
 		Result:BattleShip_Box, 
 		CanBeDoneFromFloor:true, 
 		OnCreate:Recipe.GameNight.Unbox, 
 		Time:50.0, 
 	}
-    recipe Open Box 
-	{ 
-		BattleShip_Box, 
-		Result:BattleShip_GameStand_Closed=2, 
-		CanBeDoneFromFloor:true,  
-		Time:50.0, 
-	}
-	
-	recipe Open Battleship Stand
-   {
-     BattleShip_GameStand_Closed,
 
-     Result:BattleShip_GameStand_Open,
-     Time:25.0,
-     OnCreate:Recipe.GameNight.Unbox,
-	 CanBeDoneFromFloor:true, 
-   }	 
+    recipe Open Battleship Stand
+    {
+        BattleShip_GameStand_Closed,
+        Result:BattleShip_GameStand_Open,
+        Time:25.0,
+        OnCreate:Recipe.GameNight.Unbox,
+        CanBeDoneFromFloor:true,
+    }
 }

@@ -1,6 +1,6 @@
 module Base
 {
-    item BattleShip_Box_Sealed
+    item BattleShip_Box_sealed
     {
         DisplayCategory = GameBox,		
         Type = Normal,
@@ -26,7 +26,7 @@ module Base
         DisplayCategory = GameBox,		
         Type = Container,
         DisplayName = Battleship Gamestand (Closed),
-        Icon = Battleship_Stand_Closed,
+        Icon = BattleShip_Stand_Closed,
         WorldStaticModel = WorldItem-Battleship_Stand_Closed,
         Weight = 0.4,	
 		Capacity = 1,
@@ -37,72 +37,73 @@ module Base
         DisplayCategory = GameBox,		
         Type = Container,
         DisplayName = Battleship Gamestand (Open),
-        Icon = OutOfPlayTextures/Battleship_Stand_Open,
+        Icon = OutOfPlayTextures/BattleShip_GameStand_Open,
         WorldStaticModel = WorldItem-Battleship_Stand_Open,
-        Weight = 0.4,	
-		WeightReduction = 20,			
+        Weight = 0.4,
+        Capacity = 1,
+		WeightReduction = 20,
     }	
     item BattleShip_Peg_Red
     {
         DisplayCategory = GamePiece,		
         Type = Normal,
         DisplayName = Red Peg,
-        Icon = OutOfPlayTextures/BattleshipPeg_Red,
+        Icon = OutOfPlayTextures/BattleShip_Peg_Red,
         WorldStaticModel = WorldItem-Battleship_Peg_Red,
-        Weight = 0.01,		
+        Weight = 0.001,
     }
     item BattleShip_Peg_White
     {
         DisplayCategory = GamePiece,		
         Type = Normal,
         DisplayName = White Peg,
-        Icon = OutOfPlayTextures/BattleshipPeg_White,
+        Icon = OutOfPlayTextures/BattleShip_Peg_White,
         WorldStaticModel = WorldItem-Battleship_Peg_White,
-        Weight = 0.01,			
+        Weight = 0.001,
     }
     item BattleShip_Ship_Carrier
     {
         DisplayCategory = GamePiece,		
         Type = Normal,
         DisplayName = Carrier,
-        Icon = OutOfPlayTextures/Carrier,
+        Icon = OutOfPlayTextures/BattleShip_Ship_Carrier,
         WorldStaticModel = WorldItem-Battleship_Carrier,
-        Weight = 0.02,			
+        Weight = 0.02,
     }
     item BattleShip_Ship_Battleship
     {
         DisplayCategory = GamePiece,		
         Type = Normal,
         DisplayName = Battleship,
-        Icon = OutOfPlayTextures/Battleship,
+        Icon = OutOfPlayTextures/BattleShip_Ship_Battleship,
         WorldStaticModel = WorldItem-Battleship_Battleship,
-        Weight = 0.02,		
+        Weight = 0.02,
     }
     item BattleShip_Ship_Destroyer
     {
         DisplayCategory = GamePiece,		
         Type = Normal,
         DisplayName = Destroyer,
-        Icon = OutOfPlayTextures/Destroyer,
+        Icon = OutOfPlayTextures/BattleShip_Ship_Destroyer,
         WorldStaticModel = WorldItem-Battleship_Destroyer,
-        Weight = 0.02,		
+        Weight = 0.02,
     }
     item BattleShip_Ship_Submarine
     {
         DisplayCategory = GamePiece,		
         Type = Normal,
         DisplayName = Submarine,
-        Icon = OutOfPlayTextures/Submarine,
+        Icon = OutOfPlayTextures/BattleShip_Ship_Submarine,
         WorldStaticModel = WorldItem-Battleship_Submarine,
-        Weight = 0.02,		
+        Weight = 0.02,
     }
     item BattleShip_Ship_PatrolBoat
     {
         DisplayCategory = GamePiece,		
         Type = Normal,
         DisplayName = Patrol Boat,
-        Icon = OutOfPlayTextures/PatrolBoat,
+        Icon = OutOfPlayTextures/BattleShip_Ship_PatrolBoat,
         WorldStaticModel = WorldItem-Battleship_PatrolBoat,
-        Weight = 0.02,		
+        Weight = 0.02,
     }	
 }
