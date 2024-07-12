@@ -10,7 +10,7 @@ gamePieceAndBoardHandler.registerTypes({
 })
 
 -- Register special properties for each item using custom textures
-gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_GameStand_Open", { noRotate = true, actions = { lock=true }, category = "GameBoard", textureSize = {720,965},})
+gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_GameStand_Open", { noRotate = true, actions = { lock=true }, category = "GameBoard", textureSize = {649,870},})
 gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_Peg_Red", { noRotate = true, })
 gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_Peg_White", { noRotate = true, })
 gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_Ship_Battleship", { actions = { turnShip=true }, })
