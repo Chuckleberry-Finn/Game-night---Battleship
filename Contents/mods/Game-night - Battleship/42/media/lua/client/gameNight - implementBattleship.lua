@@ -4,13 +4,13 @@ local gamePieceAndBoardHandler = applyItemDetails.gamePieceAndBoardHandler
 
 -- Register game pieces
 gamePieceAndBoardHandler.registerTypes({
-	"Base.BattleShip_GameStand_Open", "Base.BattleShip_Peg_Red", "Base.BattleShip_Peg_White",
+	"Base.BattleShip_GameStand", "Base.BattleShip_Peg_Red", "Base.BattleShip_Peg_White",
     "Base.BattleShip_Ship_Battleship", "Base.BattleShip_Ship_Carrier", "Base.BattleShip_Ship_Destroyer",
     "Base.BattleShip_Ship_Submarine", "Base.BattleShip_Ship_PatrolBoat"
 })
 
 -- Register special properties for each item using custom textures
-gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_GameStand_Open", { noRotate = true, actions = { lock=true }, category = "GameBoard", textureSize = {649,870},})
+gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_GameStand", { noRotate = true, actions = { lock=true }, category = "GameBoard", textureSize = {649,870},})
 gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_Peg_Red", { noRotate = true, })
 gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_Peg_White", { noRotate = true, })
 gamePieceAndBoardHandler.registerSpecial("Base.BattleShip_Ship_Battleship", { actions = { turnShip=true }, })
