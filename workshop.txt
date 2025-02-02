@@ -1,0 +1,24 @@
+version=1
+id=3287846094
+title=Game Night: Battleship
+description=[h2]Play the game Battleship using the GameNight UI[/h2]
+description=
+description=[h3]Place the game on a table, right click, and hit play![/h3]
+description=[i]Requires two people for the full experience...[/i]
+description=
+description=[url=https://www.hasbro.com/common/instruct/battleship.pdf]Link to the official instructions by Hasbro[/url]
+description=
+description=DOWNLOAD THE BASE MOD : GAME NIGHT
+description=
+description=
+description=Special thanks to Chuckleberry Finn for the help!
+description=
+description=[h2] Want some fun companion mods? Try These! [/h2]
+description=[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2335368829][img]https://i.ibb.co/6XS5fcb/AZposter200.png [/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2458631365&searchtext=expanded+helis][img]https://imgur.com/7cfSt7Q.png [/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2847911733][img] https://imgur.com/xSf50ud.png [/img][/url]
+description=[url=https://discord.gg/Mxt22HmbAa][img] https://imgur.com/4HHyE9s.png [/img][/url][url=https://www.patreon.com/authenticpeach][img] https://imgur.com/PPm5rND.png [/img][/url][url=https://ko-fi.com/authenticpeach][img] https://imgur.com/4yHYpdn.png [/img][/url]
+description=[img] https://imgur.com/6OBlYju.gif [/img]
+description=
+description=I hope you enjoy and have lots of fun.
+description= - AuthenticPeach
+tags=Build 41;Build 42;Framework;Misc;Multiplayer;Pop Culture;Silly/Fun
+visibility=public
