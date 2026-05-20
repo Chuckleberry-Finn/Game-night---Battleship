@@ -2,9 +2,8 @@ module Base
 {
     item BattleShip_Box
     {
-        DisplayCategory = GameBox,		
-        Type = Container,
-        DisplayName = Battleship Box,
+        DisplayCategory = GameBox,
+        ItemType = base:container,
         Icon = Battleship_Box,
         WorldStaticModel = WorldItem-Battleship_Box,
         Weight = 2,
@@ -14,9 +13,8 @@ module Base
 
     item BattleShip_GameStand
     {
-        DisplayCategory = GameBox,
-        Type = Container,
-        DisplayName = Battleship Gamestand,
+        DisplayCategory = GameBoard,
+        ItemType = base:container,
         Icon = OutOfPlayTextures/BattleShip_GameStand,
         WorldStaticModel = WorldItem-Battleship_Stand,
         Weight = 0.4,
@@ -27,8 +25,7 @@ module Base
     item BattleShip_Peg_Red
     {
         DisplayCategory = GamePiece,		
-        Type = Normal,
-        DisplayName = Red Peg,
+        ItemType = base:normal,
         Icon = OutOfPlayTextures/BattleShip_Peg_Red,
         WorldStaticModel = WorldItem-Battleship_Peg_Red,
         Weight = 0.001,
@@ -37,8 +34,7 @@ module Base
     item BattleShip_Peg_White
     {
         DisplayCategory = GamePiece,		
-        Type = Normal,
-        DisplayName = White Peg,
+        ItemType = base:normal,
         Icon = OutOfPlayTextures/BattleShip_Peg_White,
         WorldStaticModel = WorldItem-Battleship_Peg_White,
         Weight = 0.001,
@@ -47,8 +43,7 @@ module Base
     item BattleShip_Ship_Carrier
     {
         DisplayCategory = GamePiece,		
-        Type = Normal,
-        DisplayName = Carrier,
+        ItemType = base:normal,
         Icon = OutOfPlayTextures/BattleShip_Ship_Carrier,
         WorldStaticModel = WorldItem-Battleship_Carrier,
         Weight = 0.02,
@@ -57,8 +52,7 @@ module Base
     item BattleShip_Ship_Battleship
     {
         DisplayCategory = GamePiece,		
-        Type = Normal,
-        DisplayName = Battleship,
+        ItemType = base:normal,
         Icon = OutOfPlayTextures/BattleShip_Ship_Battleship,
         WorldStaticModel = WorldItem-Battleship_Battleship,
         Weight = 0.02,
@@ -67,8 +61,7 @@ module Base
     item BattleShip_Ship_Destroyer
     {
         DisplayCategory = GamePiece,		
-        Type = Normal,
-        DisplayName = Destroyer,
+        ItemType = base:normal,
         Icon = OutOfPlayTextures/BattleShip_Ship_Destroyer,
         WorldStaticModel = WorldItem-Battleship_Destroyer,
         Weight = 0.02,
@@ -77,8 +70,7 @@ module Base
     item BattleShip_Ship_Submarine
     {
         DisplayCategory = GamePiece,		
-        Type = Normal,
-        DisplayName = Submarine,
+        ItemType = base:normal,
         Icon = OutOfPlayTextures/BattleShip_Ship_Submarine,
         WorldStaticModel = WorldItem-Battleship_Submarine,
         Weight = 0.02,
@@ -87,8 +79,7 @@ module Base
     item BattleShip_Ship_PatrolBoat
     {
         DisplayCategory = GamePiece,		
-        Type = Normal,
-        DisplayName = Patrol Boat,
+        ItemType = base:normal,
         Icon = OutOfPlayTextures/BattleShip_Ship_PatrolBoat,
         WorldStaticModel = WorldItem-Battleship_PatrolBoat,
         Weight = 0.02,

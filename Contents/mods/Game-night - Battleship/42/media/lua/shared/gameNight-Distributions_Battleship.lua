@@ -1,6 +1,6 @@
 require "Items/SuburbsDistributions"
 
-local gameNightDistro = require "gameNight - Distributions"
+local gameNightDistro = require("gameNight-Distributions.lua")
 
 gameNightDistro.proceduralDistGameNight.itemsToAdd["BattleShip_Box"] = {}
 gameNightDistro.gameNightBoxes["BattleShip_Box"] = {
